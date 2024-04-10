@@ -1,6 +1,6 @@
 import cv2
 
-capture = cv2.VideoCapture("rtsp://:8554/micamara")
+capture = cv2.VideoCapture("rtsp://:8554/micamara")#ruta para la camara
 
 while (capture.isOpened()):
     rest, frame = capture.read()
